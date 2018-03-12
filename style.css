@@ -1,0 +1,77 @@
+/*Theme Name: Ligue Aikidonord
+Theme URI: 
+Author: 
+Author URI: 
+Description: 
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ligue-aikidonord
+Tags: 
+*/
+body{font-family: 'Saira Condensed', sans-serif !important;color:#333 !important}
+	a{color:#333 !important}
+#header{height:150px}
+#banner{height:100px}
+/*
+font-family: 'Saira Condensed', sans-serif;
+font-family: 'Krona One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+*/
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.navigation-menu {border: none;background-color: #fff;}
+.navbar {margin-bottom: 0px;}
+.navbar-collapse {padding-right: 0px;padding-left: 0px;}
+.navigation-menu .navbar-nav > li > a {text-transform: uppercase;color: #444;line-height: 22px;}
+.navigation-menu .navbar-nav > li > a:hover, .navigation-menu .navbar-nav > li > a:focus {color: rgba(244,67,54,1);}
+.navigation-menu .navbar-nav > .active > a, .navigation-menu .navbar-nav > .active > a:hover, .navigation-menu .navbar-nav > .active > a:focus {background-color: rgba(0,0,0,1);color: rgba(255,255,255,1);}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {background-color: transparent;}
+.navbar-nav > li > .dropdown-menu {padding: 0px;border-radius: 0px;}
+.main-navigation {clear: both;display: block;float: left;width: 100%;}
+.main-navigation ul {/*display: none;*/	list-style: none;margin: 0;padding-left: 0;}
+.main-navigation ul ul {box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);float: left;position: absolute;top: 100%;left: -999em;z-index: 99999;}
+.main-navigation ul ul ul {left: -999em;top: 0;}
+.main-navigation ul ul li:hover > ul,.main-navigation ul ul li.focus > ul {left: 100%;}
+.main-navigation ul ul a {width: 200px;}
+.main-navigation ul li:hover > ul,.main-navigation ul li.focus > ul {left: auto;}
+.main-navigation li {float: left;position: relative;}
+.main-navigation a {display: block;text-decoration: none;}
+
+.menu-item a{padding:0 5px;}
+
+.main-navigation .primary-menu li a {color:#fff !important;padding: 16px 20px;display: block;text-transform: uppercase;}
+.main-navigation .primary-menu li.menu-item-has-children > a::after {content: '\f107';margin-left: 5px;font-family: FontAwesome;}
+.main-navigation .primary-menu li .sub-menu li a:hover,.main-navigation .primary-menu li .sub-menu li a:focus {color: rgba(244,67,54,1);}
+.main-navigation .primary-menu li.current-menu-item > a,.main-navigation .primary-menu li.current-menu-item > a:hover,
+.main-navigation .primary-menu li.current-menu-item > a:focus,.main-navigation .primary-menu li .sub-menu .current-menu-item a,
+.main-navigation .primary-menu li .sub-menu .current-menu-item a:hover,.main-navigation .primary-menu li .sub-menu .current-menu-item a:focus {
+color: #fff;background-color: #F5F5F5;}
+.main-navigation ul ul {margin-top: -10px;opacity: 0;transition-duration: .3s;transition-timing-function: ease-out;}
+.main-navigation ul li:hover > ul, .main-navigation ul li:focus > ul {margin-top: -10px;opacity: 1;transition-duration: .3s;transition-timing-function: ease-in;}
+.main-navigation .primary-menu li .sub-menu li a {background-color: #fff;color: #333 !important;}
+.main-navigation ul ul ul {left: 100%;}
+.main-navigation ul ul li ul {margin-left: 10px;opacity: 0;transition-duration: .3s;transition-timing-function: ease-out;}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li:focus > ul {margin-top: 0px;margin-left: 0px;opacity: 1;transition-duration: .3s;transition-timing-function: ease-in;}
+
+
+
+#banner{background-color:#FFF}
+#header{}
+
+#main{margin-top:/*50px*/20px;}
+.actus_stages{border-bottom:2px solid #6D181E;text-align:center;padding-bottom:5px;background-color:rgba(173, 38, 47, 0.91);color:#fff;padding:10px 0;font-size:24px}
+.actus{border-bottom:2px solid #6D181E;text-align:center;padding-bottom:5px;background-color:#444;color:#fff;padding:10px 0;font-size:24px}
+.thumbnail-news{border:1px solid #c5c5c5; padding:2px;}
+.date{font-size:10px;}
+.more-link{font-family: 'Shadows Into Light', cursive;}
+.more-link ::before{content: '\f105';margin-right: 5px; font-family: FontAwesome;}
+.post p{margin-bottom:0px !important;}
+.post {margin-bottom:10px !important;}
+.button{margin:5% 0 10% 0;text-align:center;border:1px solid #c5c5c5}
+.button:hover{border:1px solid #555;background-color:#c5c5c5;}
+.button a:hover{text-decoration:none;}
+#article img{width:100%}
